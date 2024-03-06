@@ -333,7 +333,7 @@ function search() {
     if (searchTerm === "") {
       alert("Please enter a search term."); // Alert if the search term is empty
     } else {
-      var searchURL = <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedg8AT5d-ArwjHZ0Y5WYDnaBRegioRyOH9Anm5TkLx10wVOw/viewform?embedded=true" width="640" height="2318" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> + encodeURIComponent(searchTerm); // Construct the search URL
+      var searchURL = <iframe src="https://forms.gle/1kR82fUjXx6q6Cnz5" width="640" height="2318" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> + encodeURIComponent(searchTerm); // Construct the search URL
       window.location.href = searchURL; // Redirect the user to the search engine
     }
   }
